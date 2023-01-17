@@ -7,10 +7,10 @@
 
 library(stopwords)
 library(tidytext)
-# library(tm) biblioteka tm nie będzie potrzebna
+library(tm) # biblioteka jednak będzie potrzebna
 library(spacyr)
 library(tidyverse)
 
 # dodaję dane
 
-dane <- read.csv("maxada.csv")
+dane <- read.csv("maxada.csv") # dane są nie pełne trzeba je uzupełnić
